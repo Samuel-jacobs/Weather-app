@@ -14,3 +14,33 @@ body {
   color: white;
   font-family: sans-serif;
 }
+
+.location, 
+.temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temperature {
+  flex-direction: column;
+}
+
+.temperature {
+  flex-direction: column
+}
+.temperature-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.temperature-section span {
+  margin: 10px;
+  font-size: pointer;
+  font-size: 30px;
+}
+.temperature-section h2 {
+  font-size: 40px;
+}
